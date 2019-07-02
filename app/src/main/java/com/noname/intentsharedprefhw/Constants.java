@@ -1,6 +1,9 @@
 package com.noname.intentsharedprefhw;
 
-public class Constants {
+class Constants {
 
-    public static final String PERSON_KEY = "Person";
+    static final String PERSON_KEY = "Person";
+
+    static final String PERSON_PREF_FILE_KEY = "PersonPrefFile";
+    static final String PERSON_PREF_KEY = "PersonPref";
 }

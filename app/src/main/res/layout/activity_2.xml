@@ -6,4 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".Activity2">
 
+
+    <EditText
+        android:id="@+id/et_about_me"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="top|start"
+        android:hint="About Me"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+    <include
+        layout="@layout/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
